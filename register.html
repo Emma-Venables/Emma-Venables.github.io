@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form action="https://www.google.com" method="get"></form>
+    <label for=“FirstName”>First Name:</label>
+    <input type="text" id=“FirstName” name="FirstName" placeholder="John" required>
+    <label for=“LastName”>Last Name:</label>
+    <input type="text" id=“LastName” name="LastName" Placeholder="Smith" required>
+    <br>
+    <label for="RadioMAle">Male</label>
+    <input type="Radio" id="RadioMAle" name="Gender" value="Male">
+    <label for="RadioFemale">Female</label>
+    <input type="Radio" id="RadioFemale" name="Gender" value="Female">
+    <label for="RadioOther">Other</label>
+    <input type="Radio" id="RadioOther" name="Gender" value="Other">
+    <br>
+    <label for=“email”>Email:</label>
+    <input type="email" id=“email” name="Email" placeholder="your email" required>
+
+    <Label for="password"> Password (Must be between 5-10 characters):</Label>
+    <input type="password" id="password" name="password" minlength="5" maxlength="10" placeholder="your password"
+        required>
+    <br>
+    <label> Birthday: </label>
+    <select name=“Months:>
+        <option disabled selected value=“-1>Month</option>
+
+        <option value=“JANUARY”>January</option>
+        <option value=“FEBRUARY”>February</option>
+        <option value=“MARCH”>March</option>
+        <option value=“APRIL”>April</option>
+        <option value=“MAY”>May</option>
+    </select>
+
+    <select name=“Date:>
+        <option disabled selected value=“-1>Day</option>
+        <option value=“1>1</option>
+        <option value=“2”>2</option>
+        <option value=“3”>3</option>
+        <option value=“4”>4</option>
+        <option value=“5”>5</option>
+    </select>
+
+    <select name=“Year:>
+        <option disabled selected value=“-1>Year</option>
+
+        <option value=“1991>1991</option>
+        <option value=“1992”>1992</option>
+        <option value=“1993”>1993</option>
+        <option value=“1994”>1994</option>
+        <option value=“1995”>1995</option>
+    </select>
+
+    <br>
+    <label for="Checkbox">I agree to the terms and conditions</label>
+    <input type="CheckBox" id="Checkbox" name="I agree to the terms and conditions" value="agree">
+    <br>
+    <input type="submit">
+</body>
+
+</html>
