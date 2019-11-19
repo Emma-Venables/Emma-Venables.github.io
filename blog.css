@@ -1,0 +1,19 @@
+div{
+    color: #3098dd;
+    text-transform: uppercase;
+    letter-spacing:3px;
+}
+
+.p1{
+   border-left: 3px solid grey
+}
+
+body{
+    border: 20px solid #bdc7cf;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding:20px;
+}
+
+h1{
+    color: #354b63;
+}
